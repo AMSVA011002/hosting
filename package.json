@@ -1,0 +1,33 @@
+{
+  "name": "xpgampp-hosting-stack",
+  "version": "8.4.4",
+  "description": "XAMPP Clone with Apache 2.4, PHP 8.4, MySQL 9.2, and PostgreSQL 17.4 — Web Control Panel, Dual SQL Studio, htdocs Runner & Docker Stack",
+  "type": "module",
+  "main": "server/start.js",
+  "scripts": {
+    "dev": "node server/start.js",
+    "start": "node server/start.js",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AMSVA011002/hosting.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@electric-sql/pglite": "^0.5.15",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "lucide-react": "^1.16.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "sql.js": "^1.14.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "tailwindcss": "^4.1.0",
+    "vite": "^6.2.0"
+  }
+}
